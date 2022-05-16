@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
   <title>Conversor de Moedas</title>
 </head>
 
@@ -19,7 +20,7 @@
 
     <main>
       <label>
-        Converter de
+        Converter <b>de</b>
         <select>
           <option>
             R$ Real brasileiro
@@ -28,7 +29,7 @@
       </label>
 
       <label>
-        Converter para
+        Converter <b>para</b>
         <select>
           <option>
             US$ Dólar americano
@@ -41,24 +42,24 @@
 
       <label>
         Valor
-        <input placeholder="10.000,00">
+        <input id="input-real" placeholder="R$ 10.000,00">
       </label>
 
-      <button type="button">Converter</button>
+      <button id="convert-button" type="button">Converter</button>
 
       <section>
-        <div>
+        <div class="currency-container">
           <img src="./assets/Real.svg" alt="Bandeira do Brasil">
-          <p>Real</p>
-          <p>R$ 10.000,00</p>
+          <p class="currency-name">Real</p>
+          <p class="currency-value">R$ 10.000,00</p>
         </div>
 
-        <img src="./assets/Arrow.png" alt="Seta virada para baixo">
+        <img class="arrow-img" src="./assets/Arrow.png" alt="Seta virada para baixo">
 
-        <div>
+        <div class="currency-container">
           <img src="./assets/Dolar.svg" alt="Bandeira país conversão">
-          <p>Dólar americano</p>
-          <p>US$ 2.000,00</p>
+          <p class="currency-name">Dólar americano</p>
+          <p class="currency-value">US$ 2.000,00</p>
         </div>
       </section>
     </main>
