@@ -18,7 +18,7 @@ body {
   background-color: #f4f4f4;
   margin: 0 auto;
   margin-top: 100px;
-
+  
 }
 
 header {
@@ -118,4 +118,11 @@ section {
 .arrow-img {
   display: block;
   margin: 15px auto;
+}
+
+@media screen and (max-width: 600px) {
+
+.container {
+  margin-top: 10px;
+}
 }
