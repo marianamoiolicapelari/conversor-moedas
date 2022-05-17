@@ -30,13 +30,17 @@
 
       <label>
         Converter <b>para</b>
-        <select>
+        <select id="currency-select">
           <option>
             US$ Dólar americano
           </option>
           <option>
             € Euro
           </option>
+          <option>
+            Ƀ BitCoin
+          </option>
+
         </select>
       </label>
 
@@ -51,15 +55,15 @@
         <div class="currency-container">
           <img src="./assets/Real.svg" alt="Bandeira do Brasil">
           <p class="currency-name">Real</p>
-          <p class="currency-value">R$ 10.000,00</p>
+          <p class="currency-value" id="real-value-text">R$ 10.000,00</p>
         </div>
 
         <img class="arrow-img" src="./assets/Arrow.png" alt="Seta virada para baixo">
 
         <div class="currency-container">
-          <img src="./assets/Dolar.svg" alt="Bandeira país conversão">
-          <p class="currency-name">Dólar americano</p>
-          <p class="currency-value">US$ 2.000,00</p>
+          <img src="./assets/Dolar.svg" id="currency-img" alt="Bandeira país conversão">
+          <p class="currency-name" id="currency-name">Dólar americano</p>
+          <p class="currency-value" id="currency-value-text">US$ 2.000,00</p>
         </div>
       </section>
     </main>
