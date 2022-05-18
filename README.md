@@ -5,7 +5,7 @@ O Conversor de Moedas foi criado a partir das aulas do Rodolfo Mori no DevClub, 
 implementar as funções de conversão de moedas e uma API que retorna, o valor da moeda a ser convertida, em tempo real o valor da moeda atualizado.
 ## 🎨 Layout
 
-![image]()
+![image](https://github.com/marianamoiolicapelari/conversor-moedas/blob/main/assets/Design.png)
 
 ## 🛠 Tecnologias
 
