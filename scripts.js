@@ -65,5 +65,13 @@ changeCurrency = () => {
     convertValues()
 }
 
+document.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        var btn = document.querySelector("#convert-button")
+
+        btn.click()
+    }
+})
+
 button.addEventListener('click', convertValues)
 select.addEventListener('change', changeCurrency)

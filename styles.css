@@ -10,14 +10,21 @@
 }
 
 body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
   background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   width: 375px;
+  max-width: 100%;
   background-color: #f4f4f4;
-  margin: 0 auto;
-  margin-top: 30px;
+  /*margin: 0 auto;
+  margin-top: 30px;*/
   
 }
 
@@ -72,6 +79,10 @@ input {
   font-size: 18px;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
 button {
   background: #1b83e2;
   border-radius: 25px;
@@ -120,9 +131,3 @@ section {
   margin: 15px auto;
 }
 
-@media screen and (max-width: 600px) {
-
-.container {
-  margin-top: 10px;
-}
-}
