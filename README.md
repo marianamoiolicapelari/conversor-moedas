@@ -1,8 +1,8 @@
 # Conversor de Moedas
 
 ## 💻 Sobre o Projeto
-O Conversor de Moedas foi criado a partir das aulas do Rodolfo Mori no DevClub, acrescentado alterações de design e layoult responsivo. Utilizei o JavaScript para
-implementar as funções de conversão de moedas e uma API que retorna, o valor da moeda a ser convertida, em tempo real o valor da moeda atualizado.
+O Conversor de Moedas foi criado a partir das aulas do Rodolfo Mori no DevClub, acrescentado alterações de design e layoult responsivo. Utilizei o JavaScript para implementar as funções de conversão de moedas e uma API que retorna, o valor da moeda a ser convertida, em tempo real o valor da moeda atualizado. Acrescentei a função que você converte o valor apenas pressionando o enter, porém continua convertendo ao clicar no botão CONVERTER.
+
 ## 🎨 Layout
 
 ![image](https://github.com/marianamoiolicapelari/conversor-moedas/blob/main/assets/Design.png)
