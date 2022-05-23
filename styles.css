@@ -10,25 +10,24 @@
 }
 
 body {
-  width: 100%;
-  min-height: 100vh;
-  padding: 20px;
-  background-color: #e5e5e5;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-color: #e5e5e5;
 }
 
 .container {
   width: 375px;
-  max-width: 100%;
   background-color: #f4f4f4;
-  /*margin: 0 auto;
-  margin-top: 30px;*/
-  
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1b83e2 ;
   height: 66px;
 }
@@ -36,9 +35,6 @@ header {
 h1 {
   font-size: 24px;
   color: #F4F4F4;
-  text-align: center;
-  padding-top: 25px;
-
 }
 
 main {
@@ -108,11 +104,18 @@ button:active {
 section {
   border: 1px solid #1B83E2;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .currency-container {
-  text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
 .currency-name {
