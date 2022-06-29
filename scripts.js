@@ -2,7 +2,6 @@ const button = document.getElementById('convert-button')
 const select = document.getElementById('currency-select')
 
 const convertValues = async () => {
-
     let moedas = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(function (result) {
         return result.json()
     })
